@@ -1844,6 +1844,7 @@ static void ParsePreprocessorOutputArgs(PreprocessorOutputOptions &Opts,
   case frontend::RewriteObjC:
   case frontend::RewriteTest:
   case frontend::RunAnalysis:
+  case frontend::TemplightDump:
   case frontend::MigrateSource:
     Opts.ShowCPP = 0;
     break;
